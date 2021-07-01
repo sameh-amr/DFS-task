@@ -1,0 +1,14 @@
+How to run the project
+1-install node 32-bit installer
+2-go to the directory in which the project is downloaded
+3-run npm i
+4-after installing all the necessary dependencies run node index to start the project
+5-you can also run npm test for validation test cases
+
+Note :* node index will automatically run the logic and will place the results in Results.csv 
+* npm test will run some ready made test cases to make sure it validates successfully
+* node-modules file is removed so you need to run mpm i to install all the needed dependencies
+
+
+Assumptions: 1-I assumed that when comparing from account and to account currency we use the one in Accounts.csv
+2-In test cases we have three validation functions in test validation file each validator is given an array of 2 objects one is true and the other is false

@@ -1,0 +1,7 @@
+from,to,amount,currency,status,Error
+1,2,50,usd,Successfull,
+2,3,50,usd,Successfull,
+5,2,50,USD,Failed,One Of The accounts doesnt exists...
+3,4,500,EURO,Failed,Insufficient funds
+1,3,200,euro,Failed,Insufficient funds
+3,4,10,euro,Failed,Currency Miss Match
